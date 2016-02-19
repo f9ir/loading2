@@ -82,7 +82,7 @@ p.nominalBounds = new cjs.Rectangle(-17.7,-17.7,35.4,35.4);
 
 
 // stage content:
-(lib._4rloading = function(mode,startPosition,loop) {
+(lib.r4r = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// r4
