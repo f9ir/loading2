@@ -1,1 +1,143 @@
-this html
+.profile-header {
+  background: #ebebeb;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: solid 1px #ccc;
+}
+.profile-header a {
+  color: #009ACD;
+}
+.profile-header a:hover {
+  color: #0D4F8B;
+}
+.profile-header .avatar-wrap img {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 1px 1px 1px #999;
+  -webkit-box-shadow: 1px 1px 1px #999;
+  box-shadow: 1px 1px 1px #999;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.profile-header .profile-mega-yay #profile-name-header {
+  color: #222;
+  text-shadow: 0 1px 1px #fff;
+  -webkit-text-fill-color: #222;
+}
+.profile-header .profile-mega-yay #profile-location {
+  color: #3c3c3c;
+}
+.profile-header .profile-mega-yay #profile-links {
+  margin-bottom: 10px;
+}
+.profile-header .profile-mega-yay #profile-follow {
+  text-align: center;
+  overflow: visible;
+}
+.profile-header .profile-mega-yay #profile-follow strong {
+  color: #f60;
+}
+.profile-header .profile-mega-yay #profile-follow a {
+  background: #e0e0e0;
+  padding: 6px 8px;
+  border: solid 1px #ccc;
+  border-top: solid 1px #f60;
+}
+.profile-header .profile-mega-yay #profile-follow a#profile-followers, .profile-header .profile-mega-yay #profile-follow a#profile-following {
+  margin-right: 5px;
+}
+.profile-header .profile-mega-yay #profile-follow #profile-follow-block a {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: #009ACD !important;
+}
+.profile-header .profile-mega-yay #profile-follow #profile-follow-block a:hover {
+  color: #0D4F8B !important;
+}
+
+#profile-grid {
+  background: #ebebeb;
+  border-top: solid 1px #fff;
+}
+
+#profile-grid #profile-grid-pens .explore-tabs a {
+  color: #009ACD;
+}
+#profile-grid #profile-grid-pens .explore-tabs a:hover {
+  color: #0D4F8B;
+}
+#profile-grid #profile-grid-pens .explore-tabs a.active {
+  color: #0D4F8B;
+}
+#profile-grid #profile-grid-pens #showcase .single-pen .meta {
+  background: #222;
+  border-bottom: none;
+}
+#profile-grid #profile-grid-pens #showcase .single-pen .meta .stats a.single-stat {
+  color: #f60;
+  border-left: solid 1px #662900 !important;
+}
+#profile-grid #profile-grid-pens #showcase .single-pen .meta .stats a.single-stat svg {
+  fill: #f60;
+}
+#profile-grid #profile-grid-pens #showcase .single-pen .meta .stats a.single-stat:hover {
+  color: #ffa366;
+}
+#profile-grid #profile-grid-pens #showcase .single-pen .meta .stats a.single-stat:hover svg {
+  fill: #ffa366;
+}
+
+#profile-grid #profile-grid-sidebar .module {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+}
+#profile-grid #profile-grid-sidebar #profile-search form #profile-search-q {
+  border: solid 3px #ccc;
+  background: #fff;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#profile-grid #profile-grid-sidebar .explore-tabs a {
+  color: #009ACD;
+}
+#profile-grid #profile-grid-sidebar .explore-tabs a:hover {
+  color: #0D4F8B;
+}
+#profile-grid #profile-grid-sidebar .explore-tabs a.active {
+  color: #0D4F8B;
+}
+#profile-grid #profile-grid-sidebar #posts-grid .single-post {
+  background: #fff;
+}
+#profile-grid #profile-grid-sidebar #posts-grid .single-post a {
+  color: #009ACD;
+}
+#profile-grid #profile-grid-sidebar #posts-grid .single-post a:hover {
+  color: #0D4F8B;
+}
+#profile-grid #profile-grid-sidebar #collections-grid .module {
+  background: #fff;
+}
+#profile-grid #profile-grid-sidebar #collections-grid h2 a {
+  color: #009ACD;
+}
+#profile-grid #profile-grid-sidebar #collections-grid h2 .badge {
+  background: none;
+  color: #999 !important;
+  margin-left: 15px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+#profile-grid #profile-grid-sidebar #collections-grid h2 .badge:before {
+  content: "(";
+}
+#profile-grid #profile-grid-sidebar #collections-grid h2 .badge:after {
+  content: ")";
+}
